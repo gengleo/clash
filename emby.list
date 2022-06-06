@@ -84,6 +84,7 @@ DOMAIN,sg.jmsooo.com
 
 # > 流媒体Misakaf服务器
 DOMAIN,emby.misakaf.xyz
+IP-CIDR,46.38.239.238/24
 DOMAIN,embyaz.misakaf.xyz
 
 # > 流媒体singularity服务器
@@ -91,3 +92,4 @@ DOMAIN,singularity.deja-vu.beauty
 
 # > 流媒体nakonako服务器
 DOMAIN,nakonako.net
+IP-CIDR,95.217.228.96/24
