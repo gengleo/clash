@@ -287,7 +287,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Paypal.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/PayPal.png
 
 - name: TestFlight
   type: select
