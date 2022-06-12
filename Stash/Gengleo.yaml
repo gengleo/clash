@@ -371,7 +371,7 @@ proxy-groups:
   type: select
   proxies:
   - DIRECT
-  - Auto-HK
+  - Auto
   - Proxy
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
 
