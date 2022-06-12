@@ -95,41 +95,45 @@ proxy-groups:
   type: select
   use:
     - MyProxy
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Proxy.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Proxy.png
 
-- name: Auto-HK
+- name: Auto
   type: url-test
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Auto.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Auto.png
   use:
+    - MyProxy-US
     - MyProxy-HK
+    - MyProxy-JP
+    - MyProxy-TW
+    - MyProxy-SG
 
 - name: US
   type: select
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/US.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/United_States.png
   use:
     - MyProxy-US
 
 - name: HK
   type: select
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/HK02.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Hong_Kong.png
   use:
     - MyProxy-HK
 
 - name: JP
   type: select
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/JP.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Japan.png
   use:
     - MyProxy-JP
 
 - name: TW
   type: select
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/TW02.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Taiwan.png
   use:
     - MyProxy-TW
 
 - name: SG
   type: select
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Country/SG.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Singapore.png
   use:
     - MyProxy-SG
 
@@ -143,7 +147,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Outside.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Global.png
 
 - name: GlobleMedia
   type: select
@@ -155,7 +159,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/GMedia.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/ForeignMedia.png
 
 - name: Netflix
   type: select
@@ -167,7 +171,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Netflix.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Netflix.png
 
 - name: Disney+
   type: select
@@ -179,7 +183,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Disney+.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Disney+.png
 
 - name: HBO
   type: select
@@ -191,7 +195,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/HBO.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HBO.png
 
 - name: Youtube
   type: select
@@ -203,7 +207,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Youtube.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/YouTube_Letter.png
 
 - name: Spotify
   type: select
@@ -215,7 +219,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Spotify.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Spotify.png
 
 - name: Emby
   type: select
@@ -227,7 +231,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Emby.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Emby.png
 
 - name: TikTok
   type: select
@@ -239,7 +243,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Tiktok.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TikTok.png
 
 - name: Bilibili
   type: select
@@ -247,7 +251,7 @@ proxy-groups:
   - HK
   - TW
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Bilibili.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/bilibili.png
 
 - name: Telegram
   type: select
@@ -259,7 +263,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Telegram.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Telegram.png
 
 - name: Twitter
   type: select
@@ -271,7 +275,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Twitter.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Twitter.png
 
 - name: PayPal
   type: select
@@ -283,7 +287,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Paypal.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Paypal.png
 
 - name: TestFlight
   type: select
@@ -295,7 +299,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/TestFlight.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/TestFlight_2.png
 
 - name: Apple
   type: select
@@ -307,7 +311,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Apple.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Apple.png
 
 - name: Google
   type: select
@@ -319,7 +323,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Google.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Google.png
 
 - name: Microsoft
   type: select
@@ -331,7 +335,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Microsoft.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Microsoft.png
 
 - name: Weibo
   type: select
@@ -343,7 +347,7 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Weibo.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Weibo.png
 
 - name: Mainland
   type: select
@@ -355,19 +359,32 @@ proxy-groups:
   - SG
   - Final
   - DIRECT
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Mainland.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/China.png
 
+- name: AdBlock
+  type: select
+  proxies:
+  - REJECT
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Advertising.png
+    
 - name: Final
   type: select
   proxies:
   - DIRECT
   - Auto-HK
   - Proxy
-  icon: https://raw.githubusercontent.com/erdongchanyo/icon/main/Policy-Filter/Final01.png
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Final.png
 
 #远程规则集合声明
 rule-providers:
 
+  Adblock-Domain:
+    behavior: domain
+    interval: 86400
+    type: http
+    path: ./ruleset/AdDomain.yaml
+    url: "https://ghproxy.com/https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/master/rule/Clash/AdvertisingLite/AdvertisingLite_Domain.yaml"
+    
   Netflix-rules:
     behavior: classical
     interval: 86400
@@ -483,6 +500,7 @@ rule-providers:
 
 #分流规则引用
 rules:
+- RULE-SET,Adblock-Domain,AdBlock
 - RULE-SET,Netflix-rules,Netflix
 - RULE-SET,Disney-rules,Disney+
 - RULE-SET,HBO-rules,HBO
