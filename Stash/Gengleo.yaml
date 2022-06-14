@@ -197,6 +197,18 @@ proxy-groups:
   - DIRECT
   icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/HBO.png
 
+- name: PrimeVideo
+  type: select
+  proxies:
+  - US
+  - HK
+  - JP
+  - TW
+  - SG
+  - Final
+  - DIRECT
+  icon: https://raw.githubusercontent.com/Koolson/Qure/master/IconSet/Color/Prime_Video.png
+
 - name: Youtube
   type: select
   proxies:
@@ -408,6 +420,12 @@ rule-providers:
     interval: 86400
     name: Youtube
     url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/YouTube/YouTube.yaml
+  
+  PrimeVideo-rules:
+    behavior: classical
+    interval: 86400
+    name: PrimeVideo
+    url: https://raw.githubusercontent.com/blackmatrix7/ios_rule_script/release/rule/Clash/PrimeVideo/PrimeVideo.yaml
 
   Spotify-rules:
     behavior: classical
@@ -505,6 +523,7 @@ rules:
 - RULE-SET,Disney-rules,Disney+
 - RULE-SET,HBO-rules,HBO
 - RULE-SET,Youtube-rules,Youtube
+- RULE-SET,PrimeVideo-rules,PrimeVideo
 - RULE-SET,Spotify-rules,Spotify
 - RULE-SET,Emby-rules,Emby
 - RULE-SET,TikTok-rules,TikTok
