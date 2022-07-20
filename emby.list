@@ -97,3 +97,6 @@ IP-CIDR,95.217.228.96/24
 # BlueSeaMusics服务器
 DOMAIN,blueseamusics.com
 DOMAIN,jp.blueseamusicbox.best
+
+# CC公益服
+DOMAIN,emby.jussi.ga
